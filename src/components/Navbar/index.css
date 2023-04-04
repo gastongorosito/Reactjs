@@ -1,11 +1,9 @@
-/* .Navbar { */
+.Navbar { 
+ 
+display: flex;
+justify-content: center;
+font-weight: 600;
+font-size: 150%;
 
-    /* width: 100px;
-   
-    height: 100px;
-   
-    background-color: #cc9;
-   
-    border: 3px solid black;
-    */
-   /* } */
+
+   }

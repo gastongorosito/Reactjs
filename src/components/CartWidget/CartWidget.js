@@ -1,10 +1,11 @@
 
-import {FiShoppingCart} from "react-icons/fi"
+import {FiShoppingCart} from "react-icons/fi";
 const CartWidget = ({}) => {
 
-    return (
+    return <CartWidget/>; ( 
         <div className="cart-icon">
-          {FiShoppingCart}
+          
+          <FiShoppingCart />
         </div>
     )
   }
