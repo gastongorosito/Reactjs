@@ -1,9 +1,10 @@
 
-const CartWidget = ({quantity}) => {
+import {FiShoppingCart} from "react-icons/fi"
+const CartWidget = ({}) => {
 
     return (
         <div className="cart-icon">
-          {quantity}
+          {FiShoppingCart}
         </div>
     )
   }
