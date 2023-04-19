@@ -1,5 +1,7 @@
 import "./index.css";
-import CartWidget from "../CartWidget/CartWidget"
+import CartWidget from "../CartWidget/CartWidget";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const Navbar = () => {
