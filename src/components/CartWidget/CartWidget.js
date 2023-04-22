@@ -1,10 +1,12 @@
-
+import React from "react";
 import {FiShoppingCart} from "react-icons/fi";
 const CartWidget = ({}) => {
 
     return ( 
         <div className="cart-icon">
-          <FiShoppingCart />
+          <button><FiShoppingCart />
+          0
+          </button>
         </div>
     )
   }
