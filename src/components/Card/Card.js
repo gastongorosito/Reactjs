@@ -1,14 +1,15 @@
 import React from "react";
-import camisetatit from "../assets/camisetatit.png"
 
 
-function Card () {
+
+function Card ({title,imageSource,text}) {
     return (
-        <div className="card" >
-            <div className= "card-body">
-                <img className="img-fluid" src={camisetatit}/>
-                <h4 className="card-title"> MyTitle</h4>
-                <p className="card-text">lasdaksdjaskdhashdkajshdakjhdjkhasjdhajhds</p>
+        <div className="card text-center bg-dark" >
+            <img className="img-fluid" src={imageSource}/>
+            <div className= "card-body text-light">
+                <h4 className="card-title"> {title}</h4>
+                <p className="card-text">  {text ? text:"Merch Oficial de GT United"}</p>
+                <a  className="btn btn-outline-secondary border-1 rounded-0">COMPRAR </a>
             </div>
 
         </div>
