@@ -5,10 +5,9 @@ import hoodie from "../assets/hoodie.png";
 import shortblanco from "../assets/shortblanco.png";
 
 const cards = ({ products}) => {
-  
   return (
     <>
-    {}
+    {products.map((product) => <div key={product.id}>{product.id}</div>)}
     </>
   );
 }
