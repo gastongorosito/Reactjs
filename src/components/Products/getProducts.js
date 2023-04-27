@@ -1,4 +1,8 @@
 import React from "react";
+import camisetatit from "../assets/camisetatit.png";
+import hoodie from "../assets/hoodie.png";
+import shortblanco from "../assets/shortblanco.png";
+
 const products = [
     {
   id:1,

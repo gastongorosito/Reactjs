@@ -1,24 +1,23 @@
 import React, { useEffect, useState } from "react";
+import ItemList from "../Card/ItemList";
 import getList from "../Products/getProducts";
-import Cards from "../Card/Cards";
 
 const ItemListContainer = () => {
 
-  const [arryList, setArrayList] = useState([]);
+  const [arrayList, setArrayList] = useState([]);
  
 
   useEffect(() => {
     getList()
     .then((response) => setArrayList(response))
-    .catch ((err) => console.error)
+    .catch ((err) => console.error(err))
     .finally()
   }, [])
-  console.log(arrayList);
 
   return (
     <div className="listContainer">
-       <Cards products={arryList}/>
-      /</div>
+      <ItemList products={arrayList}/>
+      </div>
     
   )
 }

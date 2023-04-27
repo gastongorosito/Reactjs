@@ -2,7 +2,7 @@ import React from "react"
 import './App.css';
 import Navbar from './components/Navbar/index';
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import Cards from "./components/Card/Cards";
+import ItemList from "./components/Card/ItemList";
 
 
 
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <ItemListContainer/>
-  <Cards/>
+  <ItemList/>
     </div>
   ); 
 }
